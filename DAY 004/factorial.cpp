@@ -5,9 +5,10 @@ int main()
     int n;
     cout << "enter a no. : ";
     cin >> n;
-    int factorial=1;
-    for (int i = 1; i <= n; i++){
-        factorial = factorial*i;
-    
-    }cout<<factorial;
+    int factorial = 1;
+    for (int i = 1; i <= n; i++)
+    {
+        factorial = factorial * i;
+    }
+    cout << factorial;
 }
