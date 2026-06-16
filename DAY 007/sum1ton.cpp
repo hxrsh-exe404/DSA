@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int sum(int n){
-    if (n==1) return 1;
+    if (n==1) return 1;      //  base
     return n + sum(n-1);
      
 }
