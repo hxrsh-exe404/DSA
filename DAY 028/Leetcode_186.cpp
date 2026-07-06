@@ -16,7 +16,7 @@ void reverseWords(vector<char>& s){
     int n = s.size();
     int start = 0;                                 // Starting index of the current word
     reverseRange(s, start, n - 1);                 // Step 1: Reverse the entire string    "the sky is blue" ---->  "eulb si yks eht"     
-    for (int i = 0; i <= n; i++){                  // Traverse the string      // If we find a space or reach the end,  // it means one complete word is found
+    for (int i = 0; i <= n; i++){                  // Traverse the string     //If we find a space or reach the end,  // it means one complete word is found
         if (i == n || s[i] == ' '){     
             reverseRange(s, start, i - 1);         // Reverse the current word
             start = i + 1;                         // Move start to the next word
