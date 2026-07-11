@@ -18,8 +18,6 @@ vector<int> wavePrint(vector<vector<int>> arr, int nRows, int mCols){
     return ans;
 }
 
-
-
 int main(){
    vector<vector<int>> arr={{1,2,3},{4,5,6},{7,8,9}};
     vector<int> ans = wavePrint(arr,3,3);
